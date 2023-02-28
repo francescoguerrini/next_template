@@ -36,7 +36,7 @@ const MyNavbar = () => {
       <Navbar.Toggle aria-label="toggle navigation" />
       <Navbar.Collapse>
         {collapseItems.map((item, index) => (
-          <Navbar.CollapseItem key={item}>
+          <Navbar.CollapseItem key={item} alignItems="flex-end">
             <Link
               color="inherit"
               css={{

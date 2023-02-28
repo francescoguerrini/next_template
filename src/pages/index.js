@@ -8,6 +8,10 @@ import MyNavbar from "../components/Navbar";
 import Jumbo from "../components/Jumbo";
 import Footer from "../components/Footer";
 import MyAvatar from "../components/Avatar";
+import MyCollapse from "../components/Collapse";
+import MyUser from "../components/User";
+import MyButton from "../components/MyButton";
+import AModal from "../components/AModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +21,7 @@ export default function Home() {
       {/* <Container display="grid" justify="flex-end"></Container> */}
       <Container>
         <MyNavbar />
+
         <Jumbo />
         <Grid.Container gap={2}>
           <Grid sx={12} sm={4}>
@@ -44,9 +49,13 @@ export default function Home() {
             />
           </Grid>
         </Grid.Container>
+        <MyButton />
         <MyAvatar />
+        <MyCollapse />
+        <MyUser />
       </Container>
       <Footer />
+      <AModal />
     </>
   );
 }
