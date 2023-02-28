@@ -1,10 +1,59 @@
-.main {
+
+.jumbo{ 
+    height: 500px;
+    background-image : url("https://littlevisuals.co/images/i.o.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+.jumbogrid{
+  width: 100%;
+  text-align: center;
+}
+.jumbobutton{
+  width: auto;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.jumbotext{
+  text-shadow:.2rem .2rem #4100a8;
+}
+
+.myfooter{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color:inherit;
+  height: 150px;
+  width: 100%;
+  color: antiquewhite;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+
+}
+
+.myclass{
+  background-color: wheat;
+  justify-content: center;
+}
+
+.myclass2{
+  display: flex;
+}
+
+.myavatar{
+  border-radius: 20%;
+}
+
+.mycard{
+  min-height: 250px;
+  min-width: 110px;
+}
+
+.myfooter{
+  margin-bottom: 0;
+}
+.myrow{
+  margin-bottom: 0;
 }
 
 .description {
@@ -32,11 +81,6 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
 }
 
 .grid {
